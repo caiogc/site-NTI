@@ -7,7 +7,9 @@ body {
     
 }
 
-
+.navbar{
+    background-color: #f7f7f7; 
+}
 a {
     text-decoration: none;
     transition: 0.3s;
@@ -17,7 +19,7 @@ a:hover {
     opacity: 0.7;
 }
 
-.nav-list li a {
+#nav-list li a {
     color: #111111;
 }
 .footer-list li a {
@@ -25,32 +27,10 @@ a:hover {
 }
 
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 10vh;
-    background-color: #f7f7f7;
-    padding: 0 2%;
-    
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;   
-      
-}
-
-.nav-list {
-    display: flex;
+#nav-list {
     list-style: none;
     font-weight: 600;   
 }
-
-.nav-list li {
-    margin-left: 32px;
-  }
 h2 {
     font-weight: bold;
     color: black;
@@ -114,88 +94,123 @@ main {
     font-weight: normal;
     text-align: justify;
 }
-.serviços{
+#serviços-btn{
     color: #ae1935;
     font-weight: 700;
-    border-radius: 50px;
     border-color: #ae1935;
     background: transparent;
-    width: 300px;
-    padding: 15px;
-    cursor: pointer;
+    padding: 10 20 10 20;
     border: 2px solid;
 }
 
-.serviços:hover {
+#serviços-btn:hover {
     opacity: 0.7;
 }
 
-.título {    
-    background: #ae1935;
+.noticias > h2 > span {    
+    background-color: #ae1935;
+    border-radius:50%;
+    padding: 3 10 3 10;    
     color: #FFFFFF;
-    border-radius: 50%;
-    padding: 5px 10px;
-}
+ }
 
+ .projetos > h2 > span {    
+    background-color: #ae1935;
+    border-radius:50%;
+    padding: 3 12 3 12;    
+    color: #FFFFFF;
+ }
+ 
+ .oportunidades > h2 > span {    
+    background-color: #ae1935;
+    border-radius:50%;
+    padding: 3 9 3 9;    
+    color: #FFFFFF;
+ }
 .noticias {
     padding-left: 6%;
     display: flex;
     flex-direction: column;
 }
 
-.projetos, .oportunidades{
+.projetos, .oportunidades {
     padding-left: 6%;
-    margin-top: 8%;
     display: flex;
     flex-direction: column;
 }
-.ver-mais {
-    display: flex;
+
+.quemSomos, .ajuda{
+    padding: 2%;
+    margin: 5%;
+}
+#ver-mais {
     color: #FFFFFF;
-    border-radius: 20px;
-    border-color: transparent;
     background: rgb(0, 142, 255);
-    cursor: pointer;
-    max-height: 35px;
-    max-width: 120px; 
-    align-items: center;
-    justify-content: center;
-    left: 40%;
-    position: relative;
-    
-
-}
-.ver-mais p{
-    display: flex;
-    align-items: center;
-    font-size: 16px;
+    font-weight: bold;
+    min-width: 140px;
 }
 
-.ver-mais:hover {
+#ver-mais:hover {
     opacity: 0.7;
 }
 
-.mais {
-   font-size: 200%;
-   margin-right: 5px;
+#mais {
+   font-size: 130%;
+}
+#conheça-btn {
+    color: #FFFFFF;
+    background: #ae1935;
+    font-weight: 600;
+    font-size: 1.2em;
 }
 
 .news-list h3{
     color:#ae1935;
+    margin-top: 2%;
 }
 
-.news-list h4 {
+.news-list h5 {
     font-weight: 500;
+    margin-bottom: 2%;
+    
 }
 
 .news-list p {
     font-style: italic;
+    font-weight: 500;
 }
 
 .news-list {
-    border-bottom: 1px solid;
     max-width: 60%;
+    margin-left: 3%;
     
+}
+.linhaH{
+    margin-left: 3%;
+    width: 60%;
+    height: 1px;
+    background: #000;
+
+}
+
+#maisProjeto {
+    color: #ae1935;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+#short-editais{
+    color: #111111;
+}
+.quemSomos > h2, .ajuda > h2{
+    color: #ae1935;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.quemSomos > h5, .ajuda > h5{
+    color: #111111;
 }
 
 .serviços-page {
@@ -215,50 +230,4 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-.item-categ{
-    min-width: 45%;
-    border: 1px;
-    background: red;
-}
-
-.swiper{
-
-}
-.swiper-wrapper{
-    width: 900px;
-    height: 450px;
-}
-.swiper-slide{
-    padding: 40px 0px 60px 0px;
-}
-.item_slide{
-    display: flex;
-    position: relative;
-}
-.item_slide > picture{
-    max-width: 40%;
-    margin: 0px 30px 0px 50px;
-}
-
-.item_slide > picture > img {
-    width: 100%;
-}
-
-.item_desc{
-    max-width: 45%;
-    
-}
-
-.swiper-pagination{
-
-}
-.swiper-button-prev{
-    
-}
-.swiper-button-next{
-    
-}
-.swiper-scrollbar{
-
 }

@@ -4,100 +4,161 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title>Núcleo de Tecnologia da Informação</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
-        <a class="logo" href="#">
+    <nav class="navbar fixed-top p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="logo" href="#">
             <h2><span class="nti-iniciais">N</span>úcleo de <span class="nti-iniciais">T</span>ecnologia da <span class="nti-iniciais">I</span>nformação</h2>
-        </a>
-        <nav>
-            
-            <ul class="nav-list">
-                <li><a href="">Catálogo de Serviços</a></li>
-                <li><a href="">Projetos</a></li>
-                <li><a href="">Oportunidades</a></li>
-                <li><a href="">Quem Somos</a></li>
-                <li><a href="">Precisa de Ajuda?</a></li>
-            </ul>
-        </nav>
-                    
-    </header>
+          </a>
+          <ul class="nav justify-content-end" id="nav-list">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Catálogo de Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Oportunidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Precisa de Ajuda?</a>
+                </li>
+          </ul>
+        </div>
+    </nav>
+    
     <main>
         <div class="catalogo-main">
             <h1>SERVIÇOS QUE FAZEM A DIFERENÇA</h1>
             <h4>O NTI provê serviços de Tecnologia da Informação e Comunicação que auxiliam a UFOP a cumprir suas metas de desenvolvimento do ensino, pesquisa e extensão</h4>
-            <button class="serviços">NOSSO CATÁLOGO DE SERVIÇOS</button>
+            <button type="button" class="btn rounded-pill text-nowrap shadow-sm mt-5" id="serviços-btn">NOSSO CATÁLOGO DE SERVIÇOS</button>
         </div>
     </main>
     
-    <section class="noticias">
+    <section class="noticias mt-5">
+
         <h2><span class="título">N</span>otícias</h2>
+        <article class="news-list mt-5">
+            <a href=""><h3>Token é a nova opção para acesso ao RU</h3></a>
+            <h5>A UFOP (Universidade Federal de Ouro Preto), passa a aceitar como alternativa de acesso ao RU tokens.</h5>
+            <p>16 de março de 2019</p>
+        </article>
+        <span class="linhaH"></span>
         <article class="news-list">
             <a href=""><h3>Token é a nova opção para acesso ao RU</h3></a>
-            <h4>A UFOP (Universidade Federal de Ouro Preto), passa a aceitar como alternativa de acesso ao RU tokens.</h4>
+            <h5>A UFOP (Universidade Federal de Ouro Preto), passa a aceitar como alternativa de acesso ao RU tokens.</h5>
             <p>16 de março de 2019</p>
         </article>
+        <span class="linhaH"></span>
         <article class="news-list">
             <a href=""><h3>Token é a nova opção para acesso ao RU</h3></a>
-            <h4>A UFOP (Universidade Federal de Ouro Preto), passa a aceitar como alternativa de acesso ao RU tokens.</h4>
+            <h5>A UFOP (Universidade Federal de Ouro Preto), passa a aceitar como alternativa de acesso ao RU tokens.</h5>
             <p>16 de março de 2019</p>
         </article>
-        <article class="news-list">
+        <span class="linhaH"></span>
+        <article class="news-list mb-3">
             <a href=""><h3>Token é a nova opção para acesso ao RU</h3></a>
-            <h4>A UFOP (Universidade Federal de Ouro Preto), passa a aceitar como alternativa de acesso ao RU tokens.</h4>
+            <h5>A UFOP (Universidade Federal de Ouro Preto), passa a aceitar como alternativa de acesso ao RU tokens.</h5>
             <p>16 de março de 2019</p>
         </article>
-        <article class="news-list" style="border: hidden;">
-            <a href=""><h3>Token é a nova opção para acesso ao RU</h3></a>
-            <h4>A UFOP (Universidade Federal de Ouro Preto), passa a aceitar como alternativa de acesso ao RU tokens.</h4>
-            <p>16 de março de 2019</p>
-        </article>
-        <button class="ver-mais"><p><span class="mais">+</span> Notícias</p></button>
+        <button class="btn align-self-center rounded-pill px-4 shadow-sm" id="ver-mais"><span class="bi bi-plus-lg pe-2" id="mais"></span>Notícias</button>
 
     </section>
     
-    <section class="projetos">
+    <section class="projetos mt-5">
         <h2><span class="título">P</span>rojetos</h2>
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                    <div class="item_slide">
-                        <picture>
-                            <img src="img/background.png" alt="teste">
-                        </picture>
-                        <div class="item_desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci itaque perspiciatis quas, deleniti, illo doloribus quibusdam maxime eum sapiente delectus, similique optio! Reprehenderit voluptates eveniet aut sequi, consectetur harum laboriosam!</div>
+        <div id="carouselProjetos" class="carousel carousel-fade carousel-dark slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active bg-white row d-flex justify-content-center p-5">
+                  <img src="img/p1.png" class="col-5 d-inline-flex border rounded-3 p-0 shadow-sm" alt="...">
+                  <div class="d-flex flex-column justify-content-between col-5 ps-4">
+                      <div> 
+                          <h3>Rádio UFOP</h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates vero ad beatae nihil quidem laudantium voluptatibus officiis, magni ipsa quia excepturi cupiditate alias iusto, pariatur ea voluptas iure provident voluptate?</p>
+                      </div>                      
+                        <a href="#" id="maisProjeto">Saiba mais</a>                    
                     </div>
                 </div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                ...
+
+              <div class="carousel-item bg-white row d-flex justify-content-center p-5">
+                <img src="img/p2.png" class="col-5 d-inline-flex border rounded-3 p-0 shadow-sm" alt="...">
+                <div class="d-flex flex-column justify-content-between col-5 ps-4">
+                    <div> 
+                        <h3>Projeto 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates vero ad beatae nihil quidem laudantium voluptatibus officiis, magni ipsa quia excepturi cupiditate alias iusto, pariatur ea voluptas iure provident voluptate?</p>
+                    </div>                      
+                      <a href="#" id="maisProjeto">Saiba mais</a>                    
+                  </div>
+              </div>
+
+              <div class="carousel-item bg-white row d-flex justify-content-center p-5">
+                <img src="img/p3.png" class="col-5 d-inline-flex border rounded-3 p-0 shadow-sm" alt="...">
+                <div class="d-flex flex-column justify-content-between col-5 ps-4">
+                    <div> 
+                        <h3>Projeto 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates vero ad beatae nihil quidem laudantium voluptatibus officiis, magni ipsa quia excepturi cupiditate alias iusto, pariatur ea voluptas iure provident voluptate?</p>
+                    </div>                      
+                      <a href="#" id="maisProjeto">Saiba mais</a>                    
+                  </div>
+              </div>
+
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProjetos" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
-        </div>
-        
-        <button class="ver-mais"><p><span class="mais">+</span> Projetos</p></button>
+        <button class="btn align-self-center rounded-pill px-4 shadow-sm" id="ver-mais"><span class="bi bi-plus-lg pe-2" id="mais"></span>Projetos</button>
 
     </section>
     
-    <section class="oportunidades">
+    <section class="oportunidades mt-5">
         <h2><span class="título">O</span>portunidades</h2>
+        <a class="h5 p-1 mt-5" id="short-editais" href="">
+                Edital de Seleção de Bolsistas NTI Nº 02/2019 - Desenvolvedor Web
+        </a>
+        <a class="h5 p-1 mb-4" id="short-editais" href="">
+            Edital de Seleção de Bolsistas NTI Nº 02/2019 - Desenvolvedor Web
+        </a>
+            
         
-        <button class="ver-mais"><p><span class="mais">+</span> Editais</p></button>
-
+        <button class="btn align-self-center rounded-pill px-4 shadow-sm mb-5" id="ver-mais"><span class="bi bi-plus-lg pe-2" id="mais"></span>Editais</button>
     </section>
+
+    <section class="quemSomos border rounded-3 shadow-sm mb-1">
+        <h2 class="mb-3">Quem Somos</h2>
+        <h5 class="lh-lg p-1">O Núcleo de Tecnologia da Informação está há mais de 40 anos contribuindo para engrandecimento da Universidade Federal de Ouro Preto, atuando fomentando
+        desde a infraestrutura computacional ao desenvolvimento de aplicações diversas que auxiliam o desenvolvimento das atividades fim da UFOP.
+            <p>Conheça nossa equipe, o que fazemos, nossa visão.</p>
+        </h5>
+        <button type="button" class="btn rounded-pill shadow-sm px-4" id="conheça-btn">Conheça!</button>
+    </section>
+    <br>
+    <section class="ajuda border rounded-3 shadow-sm mt-1">
+        <h2 class="mb-3">Precisa de ajuda?</h2>
+        <h5 class="lh-lg p-1">Alguma dúvida, reclamação ou dificuldade técnica relacionada aos nossos serviços e sistemas? Diga-nos como podemos ajudar. Utilize nosso canal de atendimento
+            para enviar sua requisição ou relatar um incidente e consulte nosso catálogo para obter mais informações sobre algum serviço/sistema específico.
+        </h5>
+        <button type="button" class="btn rounded-pill shadow-sm px-4" id="conheça-btn">Sistema de atendimento</button>
+    </section>
+
     <footer>
         <a class="logo_footer" href="#">
             <img src="img/logo_footer.PNG">
@@ -121,8 +182,6 @@
     <div class="copyright">
         <span>Copyright © 2018 Universidade Federal de Ouro Preto</span>
     </div>  
-    
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    
+
 </body>
 </html>
