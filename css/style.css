@@ -47,6 +47,11 @@ footer {
     height: 8vh;
     background-color: #484848;
 }
+
+.contato, .contato a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
 .footer-list {
     display: flex;
     align-items: center;
@@ -214,20 +219,27 @@ main {
 }
 
 .serviços-page {
-   display: flex;
-   padding-left: 6%;
+   padding: 6%;
 }
 .categorias-container{
-    width: 66vw;
+   
 }
 .serviços_a-z_container{
-    width: 30vw;
+    
 }
 .serviços_a-z{
     border-left: solid rgb(175, 173, 173) 8px
 }
 .categorias{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  
+}
+
+.item-categ{
+    border: 1px solid ;
+    margin: 2% 3% 0 1%;
+    padding: 2%;
+}
+
+.vr{
+    border: 3px solid #BABABA;
 }
