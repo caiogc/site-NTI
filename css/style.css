@@ -235,10 +235,21 @@ main {
 }
 
 .item-categ{
-    border: 1px solid ;
-    margin: 2% 3% 0 1%;
+    margin: 2% 0 2% 2%;
     padding: 2%;
 }
+.item-categ > img{
+    height: 50px;
+}
+
+.item-categ > div > h3{
+    font-size: large;
+    color: rgb(0, 142, 255);
+}
+.item-categ > div > h5{
+    font-size: medium;
+}
+
 
 .vr{
     border: 3px solid #BABABA;
