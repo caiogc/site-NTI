@@ -35,7 +35,7 @@ h2 {
     font-weight: bold;
     color: black;
     width: 30vw;
-  }
+}
 .nti-iniciais{
     color: #ae1935;
 }
@@ -218,22 +218,19 @@ main {
     color: #111111;
 }
 
+.page-title {
+    color: #ae1935;
+    font-weight: bold;
+}
+.page-title > span{
+    text-decoration: underline;
+}
 .serviços-page {
    padding: 6%;
 }
-.categorias-container{
-   
+.serviços-h2{
+    color: #000;
 }
-.serviços_a-z_container{
-    
-}
-.serviços_a-z{
-    border-left: solid rgb(175, 173, 173) 8px
-}
-.categorias{
-  
-}
-
 .item-categ{
     margin: 2% 0 2% 2%;
     padding: 2%;
@@ -243,14 +240,22 @@ main {
 }
 
 .item-categ > div > h3{
-    font-size: large;
+    font-size: larger;
     color: rgb(0, 142, 255);
 }
 .item-categ > div > h5{
     font-size: medium;
 }
 
-
-.vr{
-    border: 3px solid #BABABA;
+.a-z_items{
+    list-style: none;
+    border-left: 6px solid #BABABA;
 }
+
+.a-z_item {
+    color: #111111;
+    font-size: larger;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+
