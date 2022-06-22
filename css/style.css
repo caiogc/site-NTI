@@ -99,7 +99,7 @@ main {
     font-weight: normal;
     text-align: justify;
 }
-#serviços-btn{
+#nossosServiços-btn{
     color: #ae1935;
     font-weight: 700;
     border-color: #ae1935;
@@ -108,7 +108,7 @@ main {
     border: 2px solid;
 }
 
-#serviços-btn:hover {
+#nossosServiços-btn:hover {
     opacity: 0.7;
 }
 
@@ -231,6 +231,15 @@ main {
 .serviços-h2{
     color: #000;
 }
+
+#serviços-btn{
+    color: #ae1935;
+    font-weight: 700;
+    border-color: #ae1935;
+    background: transparent;
+    border: 2px solid;
+}
+
 .item-categ{
     margin: 2% 0 2% 2%;
     padding: 2%;
