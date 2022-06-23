@@ -268,3 +268,35 @@ main {
     line-height: 2.5rem;
 }
 
+#tituloServiço{
+    border-left: 6px solid rgb(0, 142, 255);
+}
+
+.categoriasList{
+    list-style: none;
+}
+
+#solicitar-btn {
+    color: #FFFFFF;
+    background: rgb(0, 142, 255);
+    font-weight: 700;
+}
+
+#servicoDesc-btn {
+    color: rgb(0, 142, 255);
+    background: #FFFFFF;
+    border: 2px solid rgb(0, 142, 255);
+    font-weight: 700;
+}
+
+#subTitulo-Descricao > h4 {
+    font-weight: 600;
+    font-size: larger;
+}
+#subTitulo-Descricao > h5 {
+    font-size: medium;
+}
+
+#descricaoServico > h5{
+    font-size: medium;
+}
