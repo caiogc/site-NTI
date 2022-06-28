@@ -345,3 +345,26 @@ main {
     line-height: 1rem;
     color: #111111;
 }
+
+.card-title{
+    font-weight: 600;
+    font-size: larger;
+}
+
+.card-text{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+#cards-projetos > a{
+    color: #111111;
+}
+
+#descricaoProjeto > div > h5{
+    font-size: medium;
+}
+
+#cardDescProjeto{
+    background: rgb(0, 142, 255);
+    color: #FFFFFF;
+}
