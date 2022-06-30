@@ -169,7 +169,7 @@ main {
     font-size: 1.2em;
 }
 
-.news-list h3{
+.news-list h4{
     color:#ae1935;
     margin-top: 2%;
 }
@@ -180,9 +180,10 @@ main {
     
 }
 
-.news-list p {
+#news-date {
     font-style: italic;
     font-weight: 500;
+    color: #111111;
 }
 
 .news-list {
@@ -207,6 +208,7 @@ main {
 
 #short-editais{
     color: #111111;
+    font-size: larger;
 }
 .quemSomos > h2, .ajuda > h2{
     color: #ae1935;
@@ -367,4 +369,49 @@ main {
 #cardDescProjeto{
     background: rgb(0, 142, 255);
     color: #FFFFFF;
+}
+
+#ano-editais{
+    font-size: x-large;
+    font-weight: 700;
+    color: rgb(0, 142, 255);
+}
+
+#noticias-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.news-list h3{
+    color:rgb(0, 142, 255);
+    margin-top: 3%;
+}
+#noticia-descricao h3{
+    color: #111111;
+    font-weight: 600;
+}
+
+#noticia-text{
+    font-size: medium;
+    font-weight: 500;
+}
+
+.veja-tambem h3{
+    color: #ae1935;
+    font-weight: 500;
+    font-size: x-large;
+}
+.veja-tambem h4{
+    color: rgb(0, 142, 255);
+    font-weight: 600;
+    font-size: larger;
+}
+
+.veja-tambem h5{
+    color: #111111;
+    font-size: medium;
+}
+
+.veja-tambem a{
+    max-width: 380px;
 }
