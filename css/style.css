@@ -501,10 +501,78 @@ main {
         width: auto;
         margin-right: 6% ;
         margin-left: 0;
-    }
+    }    
     .news-list h5{
         font-size: medium;
     }
+    .projetos, .oportunidades{
+        margin-right: 6%;
+    }
+    .carousel-item{
+        flex-direction: column;
+        align-items: center;
+    }
+    .carousel-item > img{
+        margin: 0 0 10 10;
+        width: fit-content;
+    }
+    .carousel-item > .col-5{
+        width: fit-content;
+    }
+    .carousel-item h3{
+        text-align: center;
+    }
+    .carousel-item p{
+        font-size: small;
+        margin-bottom: 5px;
+    }
+    #short-editais{
+        font-size: medium;
+    }
 
-    
+    .quemSomos h2, .ajuda h2{
+        width: auto;
+        font-size: larger;
+        margin: 5px;
+        align-self: flex-start;
+    }
+    .quemSomos h5, .ajuda h5{
+        font-size: medium;
+        margin: 5px;
+        line-height: 1.5rem !important;
+    }
+    .quemSomos, .ajuda{
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #conheça-btn{
+        font-size: medium;
+        width: fit-content;
+        margin-bottom: 5px;
+    }
+    .page-title{
+        margin-top: 15px;
+    }
+    .veja-tambem > div {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .veja-tambem > div > .col-3{
+        width: 300px;
+        margin-bottom: 15px;
+    }
+    .veja-tambem h4{
+        padding-left: 0;
+    }
+    .serviços-page{
+        width: 100vw;
+        margin:auto;
+    }
+    .news-list h3{
+        font-size: larger;
+        margin-bottom: 2px;
+    }
 }
