@@ -575,4 +575,32 @@ main {
         font-size: larger;
         margin-bottom: 2px;
     }
+    s
+    #cards-projetos{
+        flex-direction: column;
+    }
+    #cards-projetos > .item-categ{
+        width: fit-content;
+        margin-bottom: 20px;
+        margin-left: 6%;
+    }
+    #cards-projetos .card-title{
+        padding: 0;
+        margin: 0;
+    }
+    #descricaoProjeto > div{
+        width: fit-content;
+    }
+    #descricaoProjeto .card-title{
+        padding:0;
+    }
+    #subTitulo-Descricao h4{
+        padding-left: 0;
+    }
+    #quemSomos-card{
+        padding-left: .5rem!important;
+        padding-right: .5rem!important;
+        width: fit-content;
+        margin-left: 6%;
+    }
 }
