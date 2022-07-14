@@ -447,7 +447,7 @@ main {
 }
 
 /*-----RESPONSIVO------*/
-@media (max-width: 450px) {
+@media (max-width: 992px) {
     .footer-list{
         display: none;
     }
@@ -473,7 +473,7 @@ main {
         flex-direction: column;
         margin-top: 10vh;
     }
-    .catalogo-main > h1, h4{
+    .catalogo-main > h1, .catalogo-main > h4{
         font-size: 1rem;
         font-weight: 700;
         align-self: flex-start;
@@ -603,4 +603,102 @@ main {
         width: fit-content;
         margin-left: 6%;
     }
+    .serviços-page > .navbar{
+        margin-bottom: 10px!important;
+    }
+    .serviços-page > .navbar .nav{
+        margin-top: 15px;
+        flex-direction: column;
+        width: fit-content;
+    }
+    #serviços-btn{
+        width: fit-content;
+        margin-bottom: 5px;
+    }
+    .serviços-page > .navbar a{
+        font-size: x-small!important;
+    }
+    .categorias-container{
+        width: fit-content;
+    }
+    .categorias{
+        width: fit-content;
+        
+    }
+    .item-categ{
+        width: 80vw;
+        margin-left: 5%;
+        margin-bottom: 25px;
+    }
+    .serviços-page > .col-3{
+        width: fit-content;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .serviços-page > .col-3 > h2{
+        width: fit-content;
+        margin: 15px !important;
+    }
+    .a-z_items{
+        border: none;        
+
+    }    
+    .a-z_item{
+        font-size: medium;
+        line-height: 1.2rem!important;
+        padding-bottom: 15px;
+        border: none;
+        word-break: break-all !important ;
+        white-space: normal!important;
+        display: flex;
+        align-self: flex-start ;
+    }
+    .categorias-container > h2{
+        width: fit-content;
+    }
+    .serviços-page > .col-4{
+        width: fit-content;
+    }
+    .serviços-page > .col-4 > h2{
+        margin-bottom: 15px !important;
+        margin-top: 15px;
+    }
+    #descricaoServico{
+        margin: 0 !important;
+    }
+    #descricaoServico > h5{
+        margin-bottom: 25px !important;
+        line-height: 1.5rem !important;
+    }
+    .faq-btn > h5{
+        text-align: justify;
+    }
+    #subTitulo-Descricao{
+        margin-bottom: 1rem !important;
+        margin-top: 0 !important ;
+    }
+    #solicitarServiço{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-top: 0 !important;
+    }
+    #solicitarServiço > .col-6{
+        width: fit-content;
+        margin: auto !important;
+    }
+    #solicitarServiço > .h3 {
+        margin-left: 1rem !important;
+        margin-top: 0 !important;
+        width: fit-content;
+    }
+    #solicitarServiço > .serviços_a-z {
+        margin-left: 0 !important;
+        
+    }
+    #solicitarServiço #solicitar-btn{
+        margin-top: 0 !important;
+    }
+
+    
 }
